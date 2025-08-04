@@ -27,7 +27,7 @@ https://aistudio.google.com/app/apikey
 
 ### 2. Configurar a Chave no Projeto
 
-1. Na raiz do projeto, existe um arquivo chamado .env.
+1. Na raiz do projeto, crie um arquivo chamado .env.
 
 Dentro deste arquivo, adicione a chave que você copiou, seguindo este formato:
 

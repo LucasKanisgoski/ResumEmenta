@@ -1,0 +1,108 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 20,
+        backgroundColor: '#f5f5f5',
+        alignItems: 'center',
+    },
+    title: {
+        fontSize: 28,
+        fontWeight: 'bold',
+        color: '#333',
+        marginBottom: 20,
+    },
+    inputContainer: {
+        width: '100%',
+        marginBottom: 20,
+        position: 'relative',
+    },
+    textInput: {
+        width: '100%',
+        height: 150,
+        backgroundColor: '#fff',
+        borderColor: '#ddd',
+        borderWidth: 1,
+        borderRadius: 8,
+        padding: 15,
+        textAlignVertical: 'top',
+        fontSize: 16,
+    },
+    clearButton: {
+        position: 'absolute',
+        top: 10,
+        right: 10,
+        width: 24,
+        height: 24,
+        borderRadius: 12,
+        backgroundColor: 'rgba(0,0,0,0.2)',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    clearButtonText: {
+        color: '#fff',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    imageButton: {
+        backgroundColor: '#6c757d', // Cor diferente para o botão de imagem
+        paddingVertical: 12,
+        paddingHorizontal: 30,
+        borderRadius: 8,
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginBottom: 10,
+    },
+    imageButtonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    button: {
+        backgroundColor: '#007bff',
+        paddingVertical: 12,
+        paddingHorizontal: 30,
+        borderRadius: 8,
+        width: '100%',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    imagePreviewContainer: {
+        marginBottom: 20,
+    },
+    imagePreview: {
+        width: 200,
+        height: 200,
+        resizeMode: 'contain',
+        borderRadius: 8,
+        borderColor: '#ddd',
+        borderWidth: 1,
+    },
+    resumoContainer: {
+        flex: 1,
+        width: '100%',
+        marginTop: 20,
+        backgroundColor: '#fff',
+        borderColor: '#ddd',
+        borderWidth: 1,
+        borderRadius: 8,
+        padding: 15,
+    },
+    resumoText: {
+        fontSize: 16,
+        color: '#333',
+        lineHeight: 24,
+    },
+    placeholderText: {
+        fontSize: 16,
+        color: '#999',
+        fontStyle: 'italic',
+    },
+});
